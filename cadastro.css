@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@600 & family= Roboto:wght@700;900 & display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='244' height='244' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23D5A7FF' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23C10EFF'%3E%3Ccircle cx='769' cy='229' r='6'/%3E%3Ccircle cx='539' cy='269' r='6'/%3E%3Ccircle cx='603' cy='493' r='6'/%3E%3Ccircle cx='731' cy='737' r='6'/%3E%3Ccircle cx='520' cy='660' r='6'/%3E%3Ccircle cx='309' cy='538' r='6'/%3E%3Ccircle cx='295' cy='764' r='6'/%3E%3Ccircle cx='40' cy='599' r='6'/%3E%3Ccircle cx='102' cy='382' r='6'/%3E%3Ccircle cx='127' cy='80' r='6'/%3E%3Ccircle cx='370' cy='105' r='6'/%3E%3Ccircle cx='578' cy='42' r='6'/%3E%3Ccircle cx='237' cy='261' r='6'/%3E%3Ccircle cx='390' cy='382' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* CONFIGURAÇÃO DE TEXTO */
+
+h1 {
+  position: absolute;
+  margin-right: 0px;
+  margin-left: 125px;
+  margin-top: 150px;
+  font-size: 30pt;
+  
+}
+h2 {
+  position: absolute;
+  margin-right: 0px;
+  margin-left: 115px;
+  margin-top: 210px;
+  font-size: 30pt;
+  
+}
+p {
+  margin-top: -30px;
+  margin-left: 930px;
+  font-size: 10pt;
+}
+
+/* CONFIGURAÇÃO DE CARD */
+
+div#card h3 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 34pt;
+  
+}
+
+div#card {
+  background-color: black;
+  border: 2px solid #DDAEFF;
+  width: 500px;
+  height: 500px;
+  margin-left: 800px;
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23FFFFFF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23fefbff' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fcf7ff' cx='50' cy='100' r='50'/%3E%3Cg fill='%23faf3ff' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f9efff' cx='50' cy='200' r='50'/%3E%3Cg fill='%23f7ebff' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f6e7ff' cx='50' cy='300' r='50'/%3E%3Cg fill='%23f4e3ff' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f3dfff' cx='50' cy='400' r='50'/%3E%3Cg fill='%23f1daff' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23efd6ff' cx='50' cy='500' r='50'/%3E%3Cg fill='%23edd2ff' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ecceff' cx='50' cy='600' r='50'/%3E%3Cg fill='%23eacaff' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e8c6ff' cx='50' cy='700' r='50'/%3E%3Cg fill='%23e6c2ff' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e5beff' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e3baff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e1b6ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%23dfb2ff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23DDAEFF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  
+}
+div#card form {
+  margin-top: 60px;
+  margin-left: 55px;
+}
+div#card label {
+  font-size: 12pt;
+  color: #000;
+}
+div#card input {
+  background: #fff;
+  margin: 0px 0px 14px;
+  margin-bottom: 1em;
+  border: 1px solid #c77cfc;
+  padding: 14px;
+  border-radius: 0.5em;
+  width: 80%;
+  color: #000;
+  font-size: 12pt;
+}
+
+/*  CONFIGURAÇÕES  DO BOTÃO */
+
+button {
+  position: absolute;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 985px;
+  margin-top: -100px;
+}
+button:hover {
+  background-color: #c77cfc;
+  box-shadow: 0px 15px 20px #DDAEFF;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
